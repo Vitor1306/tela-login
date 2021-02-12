@@ -48,24 +48,28 @@ body{
 
 .box input[type = "submit"]{
     border: 0;
-    background: none;
+    background: rgb(233, 54, 90);
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #2ecc71;
+    border: 2px rgb(233, 54, 90);
     padding: 14px 40px;
     outline: none;
     color: white;
     border-radius: 24px;
     transition: 0.15s;
     cursor: pointer;
-    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-size: large;
 }
 .box input[type = "submit"]:hover{
     background: #2ecc71;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-   }
+h1, h2, h3, h4, h5, h6, footer {
+    font-family: 'Kanit', sans-serif;
+}
+
+.box footer{
+    color: white;
+}
